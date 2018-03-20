@@ -76,8 +76,8 @@ namespace bibliothequeClasses
                 connexion.Open();
 
                 MySqlCommand commandSelectFiche = new MySqlCommand();
-                string moisPrecedent = ConsoleApp8.gestionDate.getMoisPrecedent();
-                string annee = ConsoleApp8.gestionDate.getAnnee();
+                string moisPrecedent = gestionCloture.gestionDate.getMoisPrecedent();
+                string annee = gestionCloture.gestionDate.getAnnee();
 
                 string moisSelectionner = annee + moisPrecedent;
 
@@ -123,8 +123,8 @@ namespace bibliothequeClasses
                 connexion.Open();
 
                 MySqlCommand commandSelectFiche = new MySqlCommand();
-                string moisPrecedent = ConsoleApp8.gestionDate.getMoisPrecedent();
-                string annee = ConsoleApp8.gestionDate.getAnnee();
+                string moisPrecedent = gestionCloture.gestionDate.getMoisPrecedent();
+                string annee = gestionCloture.gestionDate.getAnnee();
 
                 string moisSelectionner = annee + moisPrecedent;
 
@@ -163,8 +163,8 @@ namespace bibliothequeClasses
                 connexion.Open();
 
                 MySqlCommand commandSelectFiche = new MySqlCommand();
-                string moisPrecedent = ConsoleApp8.gestionDate.getMoisPrecedent();
-                string annee = ConsoleApp8.gestionDate.getAnnee();
+                string moisPrecedent = gestionCloture.gestionDate.getMoisPrecedent();
+                string annee = gestionCloture.gestionDate.getAnnee();
 
                 string moisSelectionner = annee + moisPrecedent;
 

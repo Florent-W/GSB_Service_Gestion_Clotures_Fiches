@@ -52,7 +52,7 @@ namespace gestionCloture
 
                 return moisPrecedent;
             }
-
+         
         /// <summary>
         /// La méthode retourne le mois précédent à l'aide d'un objet de type datetime
         /// </summary>

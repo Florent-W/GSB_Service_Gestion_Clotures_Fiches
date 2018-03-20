@@ -48,5 +48,11 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\gestionCloture\GestionCloture.csproj">
+      <Project>{e35f063e-7eb5-4aa5-9df4-b88313ad7826}</Project>
+      <Name>GestionCloture</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
