@@ -1,0 +1,77 @@
+\hypertarget{classbibliotheque_classes_1_1acces_donnees}{}\section{bibliotheque\+Classes.\+acces\+Donnees Class Reference}
+\label{classbibliotheque_classes_1_1acces_donnees}\index{bibliotheque\+Classes.\+acces\+Donnees@{bibliotheque\+Classes.\+acces\+Donnees}}
+
+
+Classe d\textquotesingle{}accès aux données  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classbibliotheque_classes_1_1acces_donnees_a3d5707c0c32ffef3ffb96024c429962c}{selection\+Fiche}} ()
+\begin{DoxyCompactList}\small\item\em Cette méthode permet de sélectionner toutes les fiches de frais et de les écrire dans un fichier de sortie présent dans le répertoire de l\textquotesingle{}application \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbibliotheque_classes_1_1acces_donnees_a28c549fe1997665d275fd37d97414990}{selection\+Fiche\+Mois\+Precedent}} ()
+\begin{DoxyCompactList}\small\item\em Cette méthode permet de sélectionner les fiches de frais du mois précédent et de les écrire dans un fichier de sortie présent dans le répertoire de l\textquotesingle{}application \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbibliotheque_classes_1_1acces_donnees_a05d611d9c6a77bdcf589092a68e6d262}{mise\+A\+Jour\+Fiche\+Validation}} ()
+\begin{DoxyCompactList}\small\item\em Cette méthode permet de mettre à jour les fiches de frais du mois précédent en les mettant à l\textquotesingle{}état \char`\"{}\+C\+L\char`\"{} (validé) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbibliotheque_classes_1_1acces_donnees_a3f6ab640fe018b0143515d0d8cbeda80}{mise\+A\+Jour\+Fiche\+Remboursement}} ()
+\begin{DoxyCompactList}\small\item\em Cette méthode permet de mettre à jour les fiches de frais validées et du mois précédent en les mettant à l\textquotesingle{}état \char`\"{}\+R\+B\char`\"{} (remboursé) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classbibliotheque_classes_1_1acces_donnees_ade278c21dcc3687a0e2284e1ee468844}\label{classbibliotheque_classes_1_1acces_donnees_ade278c21dcc3687a0e2284e1ee468844}} 
+My\+Sql\+Connection {\bfseries connexion} = new My\+Sql\+Connection(\char`\"{}database=gsb\+\_\+frais; server=localhost; user id=root\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe d\textquotesingle{}accès aux données 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classbibliotheque_classes_1_1acces_donnees_a3f6ab640fe018b0143515d0d8cbeda80}\label{classbibliotheque_classes_1_1acces_donnees_a3f6ab640fe018b0143515d0d8cbeda80}} 
+\index{bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}!mise\+A\+Jour\+Fiche\+Remboursement@{mise\+A\+Jour\+Fiche\+Remboursement}}
+\index{mise\+A\+Jour\+Fiche\+Remboursement@{mise\+A\+Jour\+Fiche\+Remboursement}!bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}}
+\subsubsection{\texorpdfstring{mise\+A\+Jour\+Fiche\+Remboursement()}{miseAJourFicheRemboursement()}}
+{\footnotesize\ttfamily void bibliotheque\+Classes.\+acces\+Donnees.\+mise\+A\+Jour\+Fiche\+Remboursement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cette méthode permet de mettre à jour les fiches de frais validées et du mois précédent en les mettant à l\textquotesingle{}état \char`\"{}\+R\+B\char`\"{} (remboursé) 
+
+\mbox{\Hypertarget{classbibliotheque_classes_1_1acces_donnees_a05d611d9c6a77bdcf589092a68e6d262}\label{classbibliotheque_classes_1_1acces_donnees_a05d611d9c6a77bdcf589092a68e6d262}} 
+\index{bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}!mise\+A\+Jour\+Fiche\+Validation@{mise\+A\+Jour\+Fiche\+Validation}}
+\index{mise\+A\+Jour\+Fiche\+Validation@{mise\+A\+Jour\+Fiche\+Validation}!bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}}
+\subsubsection{\texorpdfstring{mise\+A\+Jour\+Fiche\+Validation()}{miseAJourFicheValidation()}}
+{\footnotesize\ttfamily void bibliotheque\+Classes.\+acces\+Donnees.\+mise\+A\+Jour\+Fiche\+Validation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cette méthode permet de mettre à jour les fiches de frais du mois précédent en les mettant à l\textquotesingle{}état \char`\"{}\+C\+L\char`\"{} (validé) 
+
+\mbox{\Hypertarget{classbibliotheque_classes_1_1acces_donnees_a3d5707c0c32ffef3ffb96024c429962c}\label{classbibliotheque_classes_1_1acces_donnees_a3d5707c0c32ffef3ffb96024c429962c}} 
+\index{bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}!selection\+Fiche@{selection\+Fiche}}
+\index{selection\+Fiche@{selection\+Fiche}!bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}}
+\subsubsection{\texorpdfstring{selection\+Fiche()}{selectionFiche()}}
+{\footnotesize\ttfamily void bibliotheque\+Classes.\+acces\+Donnees.\+selection\+Fiche (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cette méthode permet de sélectionner toutes les fiches de frais et de les écrire dans un fichier de sortie présent dans le répertoire de l\textquotesingle{}application 
+
+\mbox{\Hypertarget{classbibliotheque_classes_1_1acces_donnees_a28c549fe1997665d275fd37d97414990}\label{classbibliotheque_classes_1_1acces_donnees_a28c549fe1997665d275fd37d97414990}} 
+\index{bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}!selection\+Fiche\+Mois\+Precedent@{selection\+Fiche\+Mois\+Precedent}}
+\index{selection\+Fiche\+Mois\+Precedent@{selection\+Fiche\+Mois\+Precedent}!bibliotheque\+Classes\+::acces\+Donnees@{bibliotheque\+Classes\+::acces\+Donnees}}
+\subsubsection{\texorpdfstring{selection\+Fiche\+Mois\+Precedent()}{selectionFicheMoisPrecedent()}}
+{\footnotesize\ttfamily void bibliotheque\+Classes.\+acces\+Donnees.\+selection\+Fiche\+Mois\+Precedent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cette méthode permet de sélectionner les fiches de frais du mois précédent et de les écrire dans un fichier de sortie présent dans le répertoire de l\textquotesingle{}application 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Florent/source/repos/\+Windows\+Service2/bibliotheque\+Classes/Class1.\+cs\end{DoxyCompactItemize}

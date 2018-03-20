@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bibliothequeClasses</name>
+    </assembly>
+    <members>
+        <member name="T:bibliothequeClasses.accesDonnees">
+            <summary>
+            Classe d'accès aux données
+            </summary>
+        </member>
+        <member name="M:bibliothequeClasses.accesDonnees.selectionFiche">
+            <summary>
+            Cette méthode permet de sélectionner toutes les fiches de frais et de les écrire dans un fichier de sortie présent dans le répertoire de l'application
+            </summary>
+        </member>
+        <member name="M:bibliothequeClasses.accesDonnees.selectionFicheMoisPrecedent">
+            <summary>
+            Cette méthode permet de sélectionner les fiches de frais du mois précédent et de les écrire dans un fichier de sortie présent dans le répertoire de l'application
+            </summary>
+        </member>
+        <member name="M:bibliothequeClasses.accesDonnees.miseAJourFicheValidation">
+            <summary>
+            Cette méthode permet de mettre à jour les fiches de frais du mois précédent en les mettant à l'état "CL" (validé)
+            </summary>
+        </member>
+        <member name="M:bibliothequeClasses.accesDonnees.miseAJourFicheRemboursement">
+            <summary>
+            Cette méthode permet de mettre à jour les fiches de frais validées et du mois précédent en les mettant à l'état "RB" (remboursé)
+            </summary>
+        </member>
+    </members>
+</doc>

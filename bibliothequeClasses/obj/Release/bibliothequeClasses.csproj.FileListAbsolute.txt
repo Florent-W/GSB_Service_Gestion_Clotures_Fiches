@@ -1,0 +1,11 @@
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\bibliothequeClasses.dll
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\bibliothequeClasses.pdb
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\ConsoleApp8.exe
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\MySql.Data.dll
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\ConsoleApp8.pdb
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\ConsoleApp8.exe.config
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\obj\Release\bibliothequeClasses.csprojResolveAssemblyReference.cache
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\obj\Release\bibliothequeClasses.csproj.CoreCompileInputs.cache
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\obj\Release\bibliothequeClasses.dll
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\obj\Release\bibliothequeClasses.pdb
+C:\Users\Florent\source\repos\WindowsService2\bibliothequeClasses\bin\Release\bibliothequeClasses.xml

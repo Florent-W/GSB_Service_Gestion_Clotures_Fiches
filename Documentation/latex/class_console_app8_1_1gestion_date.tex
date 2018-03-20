@@ -1,0 +1,180 @@
+\hypertarget{class_console_app8_1_1gestion_date}{}\section{Console\+App8.\+gestion\+Date Class Reference}
+\label{class_console_app8_1_1gestion_date}\index{Console\+App8.\+gestion\+Date@{Console\+App8.\+gestion\+Date}}
+
+
+Classe de gestion des dates  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_console_app8_1_1gestion_date_a097cf6421da4142a08f5b9e819336252}{get\+Annee}} ()
+\begin{DoxyCompactList}\small\item\em La méthode va servir à récupérer l\textquotesingle{}année du mois précédent \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_console_app8_1_1gestion_date_a14b8ffa61a02c9402717af5a4527d586}{get\+Mois\+Precedent}} ()
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois précédent \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_console_app8_1_1gestion_date_a5aca6ea8abeee381e9ec5509e4e0459a}{get\+Mois\+Precedent}} (Date\+Time date)
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois précédent à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_console_app8_1_1gestion_date_a24f475093dcb36eecbe639a9484066f8}{get\+Mois\+Suivant}} ()
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois suivant \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_console_app8_1_1gestion_date_ae0f7f304fd9f44857f69b6c7fc03ef41}{get\+Mois\+Suivant}} (Date\+Time date)
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois suivant à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime \end{DoxyCompactList}\item 
+static Boolean \mbox{\hyperlink{class_console_app8_1_1gestion_date_afa35b030b6e2aab20ffd13b0fc7b10b3}{entre}} (int jour1, int jour2)
+\begin{DoxyCompactList}\small\item\em La méthode teste et renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux ~\newline
+\end{DoxyCompactList}\item 
+static Boolean \mbox{\hyperlink{class_console_app8_1_1gestion_date_a9fc9223a86a8ceda232234d99e92a01f}{entre}} (int jour1, int jour2, Date\+Time date\+Test)
+\begin{DoxyCompactList}\small\item\em La méthode teste et renvoie vrai si le jour de la date mis en paramètre est entre les deux jours de l\textquotesingle{}intervalle mis en paramètres sinon renvoie faux ~\newline
+\end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_console_app8_1_1gestion_date_add2c0b76c8380ff81b55fb4c8e2949ec}{Display\+Time\+Event}} (object source, Elapsed\+Event\+Args e)
+\item 
+static void \mbox{\hyperlink{class_console_app8_1_1gestion_date_aba8ed79a00d7ee8bbb7af0b0be68a2ca}{Action}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_ac863a3e020b4153508a1522e12bef480}\label{class_console_app8_1_1gestion_date_ac863a3e020b4153508a1522e12bef480}} 
+static void {\bfseries Main} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de gestion des dates 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_aba8ed79a00d7ee8bbb7af0b0be68a2ca}\label{class_console_app8_1_1gestion_date_aba8ed79a00d7ee8bbb7af0b0be68a2ca}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!Action@{Action}}
+\index{Action@{Action}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{Action()}{Action()}}
+{\footnotesize\ttfamily static void Console\+App8.\+gestion\+Date.\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Cette méthode va permettre de déclencher le programme selon un intervalle donné (Si le timer est à 5000, le programme va recommencer toutes les cinq secondes et le service essayera de mettre à jour les fiches de frais toutes les cinq secondes) \mbox{\Hypertarget{class_console_app8_1_1gestion_date_add2c0b76c8380ff81b55fb4c8e2949ec}\label{class_console_app8_1_1gestion_date_add2c0b76c8380ff81b55fb4c8e2949ec}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!Display\+Time\+Event@{Display\+Time\+Event}}
+\index{Display\+Time\+Event@{Display\+Time\+Event}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{Display\+Time\+Event()}{DisplayTimeEvent()}}
+{\footnotesize\ttfamily static void Console\+App8.\+gestion\+Date.\+Display\+Time\+Event (\begin{DoxyParamCaption}\item[{object}]{source,  }\item[{Elapsed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Cette méthode s\textquotesingle{}occupe de quasiment tous les traitements \+: mise à jour des fiches, logs pour bien indiquer à quels dates le traitement à été effectuée \mbox{\Hypertarget{class_console_app8_1_1gestion_date_afa35b030b6e2aab20ffd13b0fc7b10b3}\label{class_console_app8_1_1gestion_date_afa35b030b6e2aab20ffd13b0fc7b10b3}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!entre@{entre}}
+\index{entre@{entre}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{entre()}{entre()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Boolean Console\+App8.\+gestion\+Date.\+entre (\begin{DoxyParamCaption}\item[{int}]{jour1,  }\item[{int}]{jour2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode teste et renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux ~\newline
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em jour1} & Entier qui sera le premier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em jour2} & Entier qui sera le dernier jour de l\textquotesingle{}intervalle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un booléen \+: Renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_a9fc9223a86a8ceda232234d99e92a01f}\label{class_console_app8_1_1gestion_date_a9fc9223a86a8ceda232234d99e92a01f}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!entre@{entre}}
+\index{entre@{entre}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{entre()}{entre()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Boolean Console\+App8.\+gestion\+Date.\+entre (\begin{DoxyParamCaption}\item[{int}]{jour1,  }\item[{int}]{jour2,  }\item[{Date\+Time}]{date\+Test }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode teste et renvoie vrai si le jour de la date mis en paramètre est entre les deux jours de l\textquotesingle{}intervalle mis en paramètres sinon renvoie faux ~\newline
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em jour1} & Entier qui sera le premier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em jour2} & Entier qui sera le dernier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em date\+Test} & Date qui sera comparé à l\textquotesingle{}intervalle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un booléen \+: Renvoie vrai si le jour de la date mis en paramètre est entre les deux jours mis en paramètres sinon renvoie faux
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_a097cf6421da4142a08f5b9e819336252}\label{class_console_app8_1_1gestion_date_a097cf6421da4142a08f5b9e819336252}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!get\+Annee@{get\+Annee}}
+\index{get\+Annee@{get\+Annee}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Annee()}{getAnnee()}}
+{\footnotesize\ttfamily static string Console\+App8.\+gestion\+Date.\+get\+Annee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode va servir à récupérer l\textquotesingle{}année du mois précédent 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant l\textquotesingle{}année du mois précédent
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_a14b8ffa61a02c9402717af5a4527d586}\label{class_console_app8_1_1gestion_date_a14b8ffa61a02c9402717af5a4527d586}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!get\+Mois\+Precedent@{get\+Mois\+Precedent}}
+\index{get\+Mois\+Precedent@{get\+Mois\+Precedent}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Precedent()}{getMoisPrecedent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static string Console\+App8.\+gestion\+Date.\+get\+Mois\+Precedent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois précédent 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois précédent sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_a5aca6ea8abeee381e9ec5509e4e0459a}\label{class_console_app8_1_1gestion_date_a5aca6ea8abeee381e9ec5509e4e0459a}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!get\+Mois\+Precedent@{get\+Mois\+Precedent}}
+\index{get\+Mois\+Precedent@{get\+Mois\+Precedent}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Precedent()}{getMoisPrecedent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static string Console\+App8.\+gestion\+Date.\+get\+Mois\+Precedent (\begin{DoxyParamCaption}\item[{Date\+Time}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois précédent à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & Objet de type datetime\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois précédent sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_a24f475093dcb36eecbe639a9484066f8}\label{class_console_app8_1_1gestion_date_a24f475093dcb36eecbe639a9484066f8}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!get\+Mois\+Suivant@{get\+Mois\+Suivant}}
+\index{get\+Mois\+Suivant@{get\+Mois\+Suivant}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Suivant()}{getMoisSuivant()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static string Console\+App8.\+gestion\+Date.\+get\+Mois\+Suivant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois suivant 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois suivant sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_console_app8_1_1gestion_date_ae0f7f304fd9f44857f69b6c7fc03ef41}\label{class_console_app8_1_1gestion_date_ae0f7f304fd9f44857f69b6c7fc03ef41}} 
+\index{Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}!get\+Mois\+Suivant@{get\+Mois\+Suivant}}
+\index{get\+Mois\+Suivant@{get\+Mois\+Suivant}!Console\+App8\+::gestion\+Date@{Console\+App8\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Suivant()}{getMoisSuivant()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static string Console\+App8.\+gestion\+Date.\+get\+Mois\+Suivant (\begin{DoxyParamCaption}\item[{Date\+Time}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois suivant à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & Objet de type datetime\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois suivant sous forme de deux caractères
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Florent/source/repos/\+Windows\+Service2/\+Console\+App8/Program.\+cs\end{DoxyCompactItemize}

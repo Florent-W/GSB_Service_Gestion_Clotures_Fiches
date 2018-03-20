@@ -1,0 +1,180 @@
+\hypertarget{classgestion_cloture_1_1gestion_date}{}\section{gestion\+Cloture.\+gestion\+Date Class Reference}
+\label{classgestion_cloture_1_1gestion_date}\index{gestion\+Cloture.\+gestion\+Date@{gestion\+Cloture.\+gestion\+Date}}
+
+
+Classe de gestion des dates  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_aad0e5e580f0f1e579b6dcfccb2968d67}{get\+Annee}} ()
+\begin{DoxyCompactList}\small\item\em La méthode va servir à récupérer l\textquotesingle{}année du mois précédent \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a228ef4d679207b472d78741b3e965b99}{get\+Mois\+Precedent}} ()
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois précédent \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a0cc7cfb2a7874100e6276188f229819f}{get\+Mois\+Precedent}} (Date\+Time date)
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois précédent à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_aa30693cc45b10c009399d7a547f07dee}{get\+Mois\+Suivant}} ()
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois suivant \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_abb6535d1c83722cb363400786129d6da}{get\+Mois\+Suivant}} (Date\+Time date)
+\begin{DoxyCompactList}\small\item\em La méthode retourne le mois suivant à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime \end{DoxyCompactList}\item 
+static Boolean \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a9ee14a2e60b68ffedad925b42a0ad090}{entre}} (int jour1, int jour2)
+\begin{DoxyCompactList}\small\item\em La méthode teste et renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux ~\newline
+\end{DoxyCompactList}\item 
+static Boolean \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a8c1ca7bb5e1827fd1a120d6933f83d49}{entre}} (int jour1, int jour2, Date\+Time date\+Test)
+\begin{DoxyCompactList}\small\item\em La méthode teste et renvoie vrai si le jour de la date mis en paramètre est entre les deux jours de l\textquotesingle{}intervalle mis en paramètres sinon renvoie faux ~\newline
+\end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a6646013d65b640490269556de333607c}{Display\+Time\+Event}} (object source, Elapsed\+Event\+Args e)
+\item 
+static void \mbox{\hyperlink{classgestion_cloture_1_1gestion_date_a6fd73af56600e9fb9940729449e8af4f}{Action}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a2162a2a984b4b68e1dee532a2a5f2a4e}\label{classgestion_cloture_1_1gestion_date_a2162a2a984b4b68e1dee532a2a5f2a4e}} 
+static void {\bfseries Main} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de gestion des dates 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a6fd73af56600e9fb9940729449e8af4f}\label{classgestion_cloture_1_1gestion_date_a6fd73af56600e9fb9940729449e8af4f}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!Action@{Action}}
+\index{Action@{Action}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{Action()}{Action()}}
+{\footnotesize\ttfamily static void gestion\+Cloture.\+gestion\+Date.\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Cette méthode va permettre de déclencher le programme selon un intervalle donné (Si le timer est à 5000, le programme va recommencer toutes les cinq secondes et le service essayera de mettre à jour les fiches de frais toutes les cinq secondes) \mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a6646013d65b640490269556de333607c}\label{classgestion_cloture_1_1gestion_date_a6646013d65b640490269556de333607c}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!Display\+Time\+Event@{Display\+Time\+Event}}
+\index{Display\+Time\+Event@{Display\+Time\+Event}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{Display\+Time\+Event()}{DisplayTimeEvent()}}
+{\footnotesize\ttfamily static void gestion\+Cloture.\+gestion\+Date.\+Display\+Time\+Event (\begin{DoxyParamCaption}\item[{object}]{source,  }\item[{Elapsed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Cette méthode s\textquotesingle{}occupe de quasiment tous les traitements \+: mise à jour des fiches, logs pour bien indiquer à quels dates le traitement à été effectuée \mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a9ee14a2e60b68ffedad925b42a0ad090}\label{classgestion_cloture_1_1gestion_date_a9ee14a2e60b68ffedad925b42a0ad090}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!entre@{entre}}
+\index{entre@{entre}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{entre()}{entre()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Boolean gestion\+Cloture.\+gestion\+Date.\+entre (\begin{DoxyParamCaption}\item[{int}]{jour1,  }\item[{int}]{jour2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode teste et renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux ~\newline
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em jour1} & Entier qui sera le premier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em jour2} & Entier qui sera le dernier jour de l\textquotesingle{}intervalle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un booléen \+: Renvoie vrai si le jour actuel est entre les deux jours mis en paramètres sinon faux
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a8c1ca7bb5e1827fd1a120d6933f83d49}\label{classgestion_cloture_1_1gestion_date_a8c1ca7bb5e1827fd1a120d6933f83d49}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!entre@{entre}}
+\index{entre@{entre}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{entre()}{entre()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Boolean gestion\+Cloture.\+gestion\+Date.\+entre (\begin{DoxyParamCaption}\item[{int}]{jour1,  }\item[{int}]{jour2,  }\item[{Date\+Time}]{date\+Test }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode teste et renvoie vrai si le jour de la date mis en paramètre est entre les deux jours de l\textquotesingle{}intervalle mis en paramètres sinon renvoie faux ~\newline
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em jour1} & Entier qui sera le premier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em jour2} & Entier qui sera le dernier jour de l\textquotesingle{}intervalle\\
+\hline
+{\em date\+Test} & Date qui sera comparé à l\textquotesingle{}intervalle\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un booléen \+: Renvoie vrai si le jour de la date mis en paramètre est entre les deux jours mis en paramètres sinon renvoie faux
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_aad0e5e580f0f1e579b6dcfccb2968d67}\label{classgestion_cloture_1_1gestion_date_aad0e5e580f0f1e579b6dcfccb2968d67}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!get\+Annee@{get\+Annee}}
+\index{get\+Annee@{get\+Annee}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Annee()}{getAnnee()}}
+{\footnotesize\ttfamily static string gestion\+Cloture.\+gestion\+Date.\+get\+Annee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode va servir à récupérer l\textquotesingle{}année du mois précédent 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant l\textquotesingle{}année du mois précédent
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a228ef4d679207b472d78741b3e965b99}\label{classgestion_cloture_1_1gestion_date_a228ef4d679207b472d78741b3e965b99}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!get\+Mois\+Precedent@{get\+Mois\+Precedent}}
+\index{get\+Mois\+Precedent@{get\+Mois\+Precedent}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Precedent()}{getMoisPrecedent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static string gestion\+Cloture.\+gestion\+Date.\+get\+Mois\+Precedent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois précédent 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois précédent sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_a0cc7cfb2a7874100e6276188f229819f}\label{classgestion_cloture_1_1gestion_date_a0cc7cfb2a7874100e6276188f229819f}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!get\+Mois\+Precedent@{get\+Mois\+Precedent}}
+\index{get\+Mois\+Precedent@{get\+Mois\+Precedent}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Precedent()}{getMoisPrecedent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static string gestion\+Cloture.\+gestion\+Date.\+get\+Mois\+Precedent (\begin{DoxyParamCaption}\item[{Date\+Time}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois précédent à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & Objet de type datetime\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois précédent sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_aa30693cc45b10c009399d7a547f07dee}\label{classgestion_cloture_1_1gestion_date_aa30693cc45b10c009399d7a547f07dee}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!get\+Mois\+Suivant@{get\+Mois\+Suivant}}
+\index{get\+Mois\+Suivant@{get\+Mois\+Suivant}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Suivant()}{getMoisSuivant()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static string gestion\+Cloture.\+gestion\+Date.\+get\+Mois\+Suivant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois suivant 
+
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois suivant sous forme de deux caractères
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgestion_cloture_1_1gestion_date_abb6535d1c83722cb363400786129d6da}\label{classgestion_cloture_1_1gestion_date_abb6535d1c83722cb363400786129d6da}} 
+\index{gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}!get\+Mois\+Suivant@{get\+Mois\+Suivant}}
+\index{get\+Mois\+Suivant@{get\+Mois\+Suivant}!gestion\+Cloture\+::gestion\+Date@{gestion\+Cloture\+::gestion\+Date}}
+\subsubsection{\texorpdfstring{get\+Mois\+Suivant()}{getMoisSuivant()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static string gestion\+Cloture.\+gestion\+Date.\+get\+Mois\+Suivant (\begin{DoxyParamCaption}\item[{Date\+Time}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La méthode retourne le mois suivant à l\textquotesingle{}aide d\textquotesingle{}un objet de type datetime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & Objet de type datetime\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Une chaîne de caractère représentant le mois suivant sous forme de deux caractères
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Florent/source/repos/\+Windows\+Service2/gestion\+Cloture/Program.\+cs\end{DoxyCompactItemize}
