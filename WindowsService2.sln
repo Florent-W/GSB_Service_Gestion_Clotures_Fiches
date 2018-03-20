@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService1", "..\Windo
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installation du programme de Gestion des clôtures", "Setup1\Setup1.vdproj", "{63C64500-B6E8-409F-AC99-CA0FB3C12C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "..\ConsoleApp8\ConsoleApp8\ConsoleApp8.csproj", "{E35F063E-7EB5-4AA5-9DF4-B88313AD7826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "ConsoleApp8\ConsoleApp8.csproj", "{E35F063E-7EB5-4AA5-9DF4-B88313AD7826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8Tests2", "..\ConsoleApp8\ConsoleApp8Tests2\ConsoleApp8Tests2.csproj", "{080A5A85-84C6-4926-8B42-C5829A45B224}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8Tests2", "ConsoleApp8Tests2\ConsoleApp8Tests2.csproj", "{080A5A85-84C6-4926-8B42-C5829A45B224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

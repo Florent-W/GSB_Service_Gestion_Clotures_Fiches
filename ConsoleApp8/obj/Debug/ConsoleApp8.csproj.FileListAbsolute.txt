@@ -1,0 +1,8 @@
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csproj.CoreCompileInputs.cache
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe.config
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.pdb
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\bin\Debug\MySql.Data.dll
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.exe
+c:\users\florent\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.pdb
+C:\Users\Florent\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csprojResolveAssemblyReference.cache

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Setup1"
+    "\\Setup1",
+    "\\TestResults",
+    "\\WindowsService2"
   ],
+  "SelectedNode": "\\Setup1",
   "PreviewInSolutionExplorer": false
 }
