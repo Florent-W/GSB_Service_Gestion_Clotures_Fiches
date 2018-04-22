@@ -151,7 +151,7 @@ namespace gestionCloture
             bibliothequeClasses.accesDonnees fiche = new bibliothequeClasses.accesDonnees();
 
            
-            // Si le jour actuel est entre 1 et 10, les fiches sont mises à jour en validation dans les conditions de la méthode (pour comparer à la version d'avant, les fiches sont écrite dans le fichier de logs)
+            // Si le jour actuel est entre 1 et 10, les fiches sont mises à jour en clôtures dans les conditions de la méthode (pour comparer à la version d'avant, les fiches sont écrite dans le fichier de logs)
             if (entre(1, 10))
             {
                 fiche.selectionFiche();

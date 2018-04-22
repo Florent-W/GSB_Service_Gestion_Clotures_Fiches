@@ -3,11 +3,8 @@ C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\Gestion
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\GestionCloture.pdb
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.dll
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\MySql.Data.dll
-C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\ConsoleApp8.exe
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.pdb
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.xml
-C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\ConsoleApp8.pdb
-C:\Users\Florent\source\repos\WindowsService2\gestionCloture\bin\Release\ConsoleApp8.exe.config
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csprojResolveAssemblyReference.cache
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csproj.CoreCompileInputs.cache
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.exe

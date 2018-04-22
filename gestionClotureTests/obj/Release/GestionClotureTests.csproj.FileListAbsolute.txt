@@ -13,14 +13,11 @@ C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\Mi
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\bibliothequeClasses.dll
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\MySql.Data.dll
-C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\ConsoleApp8.exe
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\GestionCloture.pdb
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\GestionCloture.exe.config
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\bibliothequeClasses.pdb
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\bibliothequeClasses.xml
-C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\ConsoleApp8.pdb
-C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\ConsoleApp8.exe.config
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\obj\Release\GestionClotureTests.dll
 C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\obj\Release\GestionClotureTests.pdb

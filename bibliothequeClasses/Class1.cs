@@ -107,7 +107,7 @@ namespace bibliothequeClasses
         }
 
         /// <summary>
-        /// Cette méthode permet de mettre à jour les fiches de frais du mois précédent en les mettant à l'état "CL" (validé)
+        /// Cette méthode permet de mettre à jour les fiches de frais du mois précédent en les mettant à l'état "CL" (clôturée)
         /// </summary>
         public void miseAJourFicheValidation()
         {
