@@ -2,10 +2,10 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
   <Summary numSequencePoints="101" visitedSequencePoints="70" numBranchPoints="40" visitedBranchPoints="26" sequenceCoverage="69.31" branchCoverage="65" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="18" numMethods="22" />
   <Modules>
-    <Module hash="10-BA-D5-B3-4D-B3-A7-A4-01-8F-D6-80-FB-FB-C2-C9-33-92-D3-E0">
+    <Module hash="C7-EE-E0-6B-2A-4F-8F-2C-9C-E7-F0-86-87-93-8C-5C-31-04-D9-4E">
       <Summary numSequencePoints="56" visitedSequencePoints="54" numBranchPoints="16" visitedBranchPoints="14" sequenceCoverage="96.43" branchCoverage="87.5" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3.14" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="12" numMethods="12" />
       <ModulePath>C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\GestionClotureTests.dll</ModulePath>
-      <ModuleTime>2018-04-14T14:41:29.6486527Z</ModuleTime>
+      <ModuleTime>2018-04-22T20:36:51.3100402Z</ModuleTime>
       <ModuleName>GestionClotureTests</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\Form2Tests.cs" />
@@ -490,10 +490,10 @@
         <TrackedMethod uid="12" token="100663308" name="System.Void gestionCloture.Tests.Form2Tests::entreTest8et2()" strategy="MSTestTest" />
       </TrackedMethods>
     </Module>
-    <Module hash="96-BA-B5-F7-01-3B-50-05-4E-7A-17-92-CD-47-B1-8E-6B-EE-3B-3C">
+    <Module hash="08-29-69-59-F8-80-AB-5F-FF-FB-FC-E6-E8-01-6A-3E-9D-C6-20-00">
       <Summary numSequencePoints="45" visitedSequencePoints="16" numBranchPoints="24" visitedBranchPoints="12" sequenceCoverage="35.56" branchCoverage="50" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="10" />
       <ModulePath>C:\Users\Florent\source\repos\WindowsService2\gestionClotureTests\bin\Release\GestionCloture.exe</ModulePath>
-      <ModuleTime>2018-04-14T14:41:29.485008Z</ModuleTime>
+      <ModuleTime>2018-04-22T20:36:51.1137591Z</ModuleTime>
       <ModuleName>GestionCloture</ModuleName>
       <Files>
         <File uid="3" fullPath="C:\Users\Florent\source\repos\WindowsService2\gestionCloture\Program.cs" />
