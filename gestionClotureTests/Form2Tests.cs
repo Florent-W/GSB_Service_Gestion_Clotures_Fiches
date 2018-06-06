@@ -94,7 +94,7 @@ namespace gestionCloture.Tests
 
             Boolean jourEntre = gestionCloture.gestionDate.entre(jour1, jour2);
 
-            if (DateTime.Now.Day <= jour1 && DateTime.Now.Day >= jour2) {
+            if (DateTime.Now.Day <= jour2 && DateTime.Now.Day >= jour1) {
                 Assert.AreEqual(true, jourEntre);
             }
             else
