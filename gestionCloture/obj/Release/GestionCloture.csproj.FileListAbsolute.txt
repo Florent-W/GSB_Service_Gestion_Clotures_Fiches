@@ -9,3 +9,14 @@ C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\Gestion
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csproj.CoreCompileInputs.cache
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.exe
 C:\Users\Florent\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.pdb
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\GestionCloture.exe.config
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\GestionCloture.exe
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\GestionCloture.pdb
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.dll
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.pdb
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\bin\Release\bibliothequeClasses.xml
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csprojAssemblyReference.cache
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csproj.CoreCompileInputs.cache
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.csproj.CopyComplete
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.exe
+C:\Users\olymp\source\repos\WindowsService2\gestionCloture\obj\Release\GestionCloture.pdb
